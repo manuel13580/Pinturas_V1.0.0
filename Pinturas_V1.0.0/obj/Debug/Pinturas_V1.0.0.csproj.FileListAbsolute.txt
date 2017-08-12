@@ -1,0 +1,8 @@
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\bin\Debug\Pinturas_V1.0.0.exe.config
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\bin\Debug\Pinturas_V1.0.0.exe
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\bin\Debug\Pinturas_V1.0.0.pdb
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\obj\Debug\Pinturas_V1.0.0.csprojResolveAssemblyReference.cache
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\obj\Debug\Pinturas_V1._0._0.Properties.Resources.resources
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\obj\Debug\Pinturas_V1.0.0.csproj.GenerateResource.Cache
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\obj\Debug\Pinturas_V1.0.0.exe
+C:\Users\anton\Desktop\U\ss2017\ayd1\sprint1\Pinturas_V1.0.0\Pinturas_V1.0.0\obj\Debug\Pinturas_V1.0.0.pdb
