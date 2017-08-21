@@ -26,5 +26,11 @@ namespace Pinturas_V1._0._0
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Conexion nueva = new Conexion();
+            nueva.crear_conexion();
+        }
     }
 }
