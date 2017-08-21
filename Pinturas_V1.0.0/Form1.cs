@@ -15,6 +15,12 @@ namespace Pinturas_V1._0._0
         public Form1()
         {
             InitializeComponent();
+            Conexion nueva = new Conexion();
+            nueva.crear_conexion();   
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
