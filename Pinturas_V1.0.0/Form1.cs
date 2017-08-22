@@ -19,7 +19,14 @@ namespace Pinturas_V1._0._0
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+        }
 
+
+
+        private void formularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearFormula nuevo = new CrearFormula();
+            nuevo.Show();
         }
     }
 }

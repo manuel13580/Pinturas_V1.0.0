@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="CrearFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearFormula.Designer.cs">
+      <DependentUpon>CrearFormula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrearFormula.resx">
+      <DependentUpon>CrearFormula.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagenes\pdf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\add1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

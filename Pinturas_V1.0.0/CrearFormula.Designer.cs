@@ -31,7 +31,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtdescripcion = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboformula = new System.Windows.Forms.ComboBox();
+            this.combomedida = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.comboautos = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,7 +58,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.comboformula);
+            this.groupBox1.Controls.Add(this.combomedida);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.comboautos);
             this.groupBox1.Controls.Add(this.label1);
@@ -90,15 +90,15 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Descripción";
             // 
-            // comboformula
+            // combomedida
             // 
-            this.comboformula.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboformula.FormattingEnabled = true;
-            this.comboformula.Location = new System.Drawing.Point(168, 87);
-            this.comboformula.Margin = new System.Windows.Forms.Padding(4);
-            this.comboformula.Name = "comboformula";
-            this.comboformula.Size = new System.Drawing.Size(180, 24);
-            this.comboformula.TabIndex = 3;
+            this.combomedida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combomedida.FormattingEnabled = true;
+            this.combomedida.Location = new System.Drawing.Point(168, 87);
+            this.combomedida.Margin = new System.Windows.Forms.Padding(4);
+            this.combomedida.Name = "combomedida";
+            this.combomedida.Size = new System.Drawing.Size(180, 24);
+            this.combomedida.TabIndex = 3;
             // 
             // label2
             // 
@@ -223,6 +223,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "CrearFormula";
             this.Text = "CrearFormula";
+            this.Load += new System.EventHandler(this.CrearFormula_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -236,7 +237,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboformula;
+        private System.Windows.Forms.ComboBox combomedida;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboautos;
         private System.Windows.Forms.Label label1;
